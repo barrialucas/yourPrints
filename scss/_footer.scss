@@ -1,0 +1,73 @@
+#footer__bloque{
+    background-color: $colorNavFoo;
+    padding: 40px 0px;
+
+    /* columna izq */
+   
+    #footer__newsletter{
+        text-decoration: none;
+        color: $colorNegroTexto;
+        font-family: $monse;
+        background-color: $colorSalmon;
+        border: none;
+    }
+    #footer__newsletter:hover{
+        background-color: gray;
+    }
+
+    /* columna medio */
+    #footer__ubi{
+        text-decoration: none;
+        font-family:$monse;
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+    }
+    #footer__ubi:hover{
+        color: $colorSalmon;
+    }
+
+    /* columna izquierda */
+
+    #footer__iconos{
+        height: 30px;
+        margin-top: 1px;
+    }
+
+    .footer_botonesIconos{
+        margin: 0px 5px;
+    }
+    .row{
+        margin-right: 0px;
+    }
+}
+
+$hoverRedes:(
+facebook:#4267B2,
+instagram:#C13584,
+wsp:#25D366,
+gmail:#db4a39,
+);
+
+@each $red, $color in $hoverRedes {
+     .footer_botonesIconos--#{$red}:hover{
+        background-color: $color;
+        border: none;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

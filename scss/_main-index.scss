@@ -1,0 +1,34 @@
+body{
+    background-color: $colorBody;
+}
+
+.main__carousel{
+    height:900px;
+    
+    .main__carousel--titulo{
+        font-family: $monse;
+        font-size: 70px;
+        font-weight: 600;
+        text-shadow: 0 5px 15px rgba(0,0,0,1);
+        margin-bottom: 35%;
+        background-color: rgba(53, 52, 66, 0.568);
+        backdrop-filter: blur(200px);
+        border-radius: 30px;
+        padding: 15px 60px;
+    }
+
+    .main__carousel--titulo2{
+        font-family: $monse;
+        font-size: 70px;
+        font-weight: 600;
+        text-shadow: 0 5px 15px rgba(0,0,0,1);
+        margin-bottom: 25%;
+        background-color: rgba(53, 52, 66, 0.568);
+        backdrop-filter: blur(200px);
+        border-radius: 30px;
+        padding: 15px 60px;
+    }
+    
+}
+
+

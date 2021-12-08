@@ -1,0 +1,329 @@
+
+@media (min-width:360px) and (max-width:414px){
+    /* home */
+    .main__carousel{
+        height: 300px;
+    }
+    #main__carousel__titulo_media{
+        font-size: 15px;
+        margin-bottom: 20%;
+    }
+    .main__carousel_fotos{
+        height: 300px;
+    }
+
+
+    /* nosotros */
+    .main__nos__row1{
+        .main__nos__titulo{
+            font-size: 27px;
+        }
+        .main__nos__parrafo{
+            font-size: 16px;
+            text-align: center;
+            
+        }
+    }
+
+    .main__nos__row2{
+        .main__nos__titulo2{
+            font-size: 33px;
+        }
+        .row2--foto{
+            height: 200px;
+            
+        }
+    }
+    .artistas__nombre{
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .artistas__parrafo{
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .artistas__foto{
+        width: 80%;
+    }
+
+
+    /* portfolio */
+    
+    .main__portfolio {
+        .main__portfolio--titulo{
+            letter-spacing:inherit;
+            font-size: 50px;
+        }
+
+        .portfolio__foto--efecto #portfolio--foto{
+            height: 150px;
+        }
+    }
+
+    /* servicios */
+    .main__servicio{
+        .main__servicio--titulo{
+        font-size: 27px;
+        }
+        .main_servicio--parrafo{
+            font-size: 16px;
+            padding: 0px 10px;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom:40px
+        }
+    }
+
+    .main__servicios{
+        .main__servicios--titulo{
+            font-size: 30px;
+            padding-top: 10px;
+        }
+        .main__servicios--parrafo{
+            font-size: 16px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .main__servicios--foto{
+            width: 400px;
+            height: 200px;
+            display: flex;
+            object-fit: cover;
+        }
+        .main__servicios--foto2{
+            width: 400px;
+            height: 200px;
+            display: flex;
+            object-fit: cover;
+        }
+        .main__servicios--foto3{
+            width: 400px;
+            height: 200px;
+            display: flex;
+            object-fit: cover;
+        }
+        .boton__colab{
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    /* contacto */
+    .main__contacto{
+        padding-top: 120px;
+        .form__titulo{
+            text-align: center;
+            font-size: 50px;
+            margin-left:20px;
+        }
+        .foto__contacto{
+            display: none;
+        }
+        .main__form{
+            margin-left: 25px;
+            
+            form{
+                width: 100%;
+            }
+        }
+        .contacto__parrafo{
+            text-align: center;
+            font-size: 19px;
+        }
+    }
+
+    /* newsletter */
+    .main__row__news{
+        padding-top: 20px;
+        .news__titulo{
+            font-size: 50px;
+        }
+        .news__logo{
+            width: 80px;
+            height: 70px;
+        }
+    }
+    .main__row2__news{
+        .news__parrafo{
+            font-size: 20px;
+        }
+    }
+    .main__row3__news{
+        .news__parrafo2{
+            font-size: 18px;
+        }
+    }
+
+    
+    
+
+    /* header */
+    #header__nav--titulo{
+        margin-right: 0px;
+    }
+    .header__nav_logo{
+        height: 50px;
+        width: 55px;
+    }
+    .header__nav{  
+        .header__container__navbar{
+            margin-left: 0px;
+        }
+    }
+    
+    /* footer */
+    #footer__bloque{
+        padding-top: 10px;
+    }
+    #footer__ubi{
+        text-align: center;
+        padding: 3px 0px;
+        font-size: 15px;
+    }
+    .footer__sub--posicionamiento{
+        order: 3;
+        padding-top: 70px;
+    }
+    .footer__ubi--posicionamiento{
+        order: 2;
+        padding-top: 20px;
+        
+    }
+    .footer__iconos--posicionamiento{  
+        order: 1;
+        padding-top:20px;
+        padding-bottom: 10px;
+    } 
+
+    /* 404 */
+    .main__row1__404 .titulo__404{
+        font-size: 200px;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .main__carousel{
+        height: 700px;
+    }
+    #main__carousel__titulo_media{
+        font-size: 50px;
+    }
+    .main__carousel_fotos{
+        height: 700px;
+    }
+
+    /* nosotros */
+    .artistas__nombre{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .main__nos__equipo .artistas__parrafo, .main__nos__equipo2 .artistas__parrafo{
+        font-size: 20px;
+        text-align: center;
+    }
+    .main__nos__row1{
+        .main__nos__titulo{
+            font-size: 50px;
+        }
+    }
+    .main__nos__row2{
+        .row2--foto{
+            height: 400px;
+        }
+    }
+    
+
+    /* portfolio */
+    .main__portfolio{
+        .main__portfolio--titulo{
+            letter-spacing: 1px;
+        }
+        .portfolio__foto--efecto{
+            #portfolio--foto{
+                height: 200px;
+            }
+        }
+    }
+    .main__galeria img{
+        height: 400px;
+    }
+
+    /* servicios */
+    .main__servicio{
+        .main__servicio--titulo{
+            font-size: 50px;
+        }   
+    }
+    .main__servicios{
+        .main__servicios--parrafo{
+            font-size: 20px;
+            padding: 0px 20px;
+            padding-top: 30px;
+        }
+        .main__servicios--titulo{
+            padding-top: 40px;
+        }
+        .main__servicios--foto{
+            width: 800px;
+        }
+        .main__servicios--foto2{
+            width: 800px;
+        }
+        .main__servicios--foto3{
+            width: 800px;
+        }
+        
+    }
+    
+    
+    /* contacto */
+    .main__contacto{
+        .foto__contacto{
+            display: none;
+        }
+        .main__form{
+            margin-left: 20px;
+            form{
+                width: 100%;
+            }
+        }
+        .form__titulo{
+            padding-top: 50px;
+            margin-left: 20px;
+        }
+        .contacto__parrafo{
+            font-size: 25px;
+        }
+    }
+
+    /* footer */
+    #footer__bloque{
+        padding-top: 30px;
+        #footer__ubi{
+            text-align: center;
+            font-size: 20px;
+        }
+        .footer_botonesIconos{
+            margin: 35px 5px;
+        }
+        
+    }
+    /* header */
+    .header__nav{
+        .header__container__navbar{
+        margin: 0px 0px;
+        }
+    }
+
+    .header__nav_logo{
+        margin-right: 250px;
+    }
+}
+
+@media (width:375px){
+    .header__nav #header__nav--titulo{
+        font-size: 40px;
+    }
+}

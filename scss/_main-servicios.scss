@@ -1,0 +1,87 @@
+.main__servicio{
+    padding-top: 120px;
+    .main_servicio--parrafo{
+        color:$colorBlancoTexto;
+        font-family: $monse;
+        font-size: 20px;
+        text-align: justify;
+        padding-top: 30px;
+        padding-bottom: 170px;
+    }
+    .main__servicio--titulo{
+        display: flex;
+        justify-content: center;
+        font-family: $monse;
+        color:$colorSalmon;
+        font-size: 60px;
+        font-weight: 600;
+    }
+    
+}
+
+
+.main__servicios{
+padding-bottom: 100px;
+    .main__servicios__card{
+        background-color: $colorNavFoo;
+    }
+    .main__servicios--titulo{
+        display: flex;
+        justify-content: center;
+        font-family: $monse;
+        color:$colorSalmon;
+        font-size: 35px;
+        
+    }
+    
+    .main__servicios--parrafo{
+        color:$colorBlancoTexto;
+        font-family: $monse;
+        font-size: 18px;
+        text-align: justify;
+        padding-top: 20px; 
+    }
+    .boton__colab{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        text-decoration: none;
+        color: $colorBlancoTexto;
+        background-color: gray;
+        margin-top: 50px;
+    }
+    .boton__colab:hover{
+        background-color: $colorSalmon;
+
+    }
+    .main__servicios--foto{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        object-fit: cover;
+    }
+    .main__servicios--foto2{
+        width: 400px;
+        height: 430px;
+        display: flex;
+        object-fit: cover;
+
+    }
+    .main__servicios--foto3{
+        height: 320px;
+
+        display: flex;
+        object-fit: cover;
+    }
+
+}
+
+.margin__fondo{
+    margin-bottom: 70px;
+}
+
+
+
+
+

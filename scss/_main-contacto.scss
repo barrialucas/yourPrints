@@ -1,0 +1,108 @@
+.main__contacto{
+    padding: 100px 0px;
+     
+    .foto__contacto{
+        width: 100%;
+        border-end-end-radius: 100px;
+        border-top-right-radius: 50px;
+    }
+    .form__titulo {
+        font-family: $monse;
+        font-weight: 500;
+        color: $colorSalmon;
+        font-size: 50px;
+        padding-bottom: 30px;
+        font-weight:600;
+        text-align: center;
+    }
+    .main__form{
+       margin-left: 52px;
+    }
+    
+    form {
+        width: 500px;
+        background-color: #88857c94;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-family: $monse;
+    }
+    form input,textarea {
+        width: 100%;
+        margin-bottom: 4px;
+        padding: 7px;
+        font-size: 15px;
+        color: black;
+    }
+    
+    textarea {
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    
+    label {
+        color: white;
+        background: transparent;
+        font-family: $monse;
+    }
+    .form__check {
+        width: 5%;
+        margin-top: 10px;
+    }
+    
+    .form__sexo {
+        color: black;
+        font-size: 17px;
+        margin-bottom: 25px;
+        
+    }
+    .form__correo{
+        padding: 15px 0px;
+    }
+    .form__comentario{
+        padding-top: 20px;
+    }
+    
+    #form__btnLimpiar {
+        background-color: #c9ba94;
+        padding: 3px;
+        font-family: $monse;
+        letter-spacing: 5px;
+        color: black;
+    }
+    
+    #form__btnLimpiar:active {
+        background-color: $colorSalmon;
+        transition: all 0.2s ease 0s;
+    }
+    
+    #form__btnEnviar {
+        background-color: #f4c95cce;
+        padding: 15px;
+        font-family: $monse;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 5px;
+        color: black;
+    }
+    #form__btnEnviar:hover {
+        cursor: pointer;
+        background-color: $colorSalmon;
+        transition: all 0.5s ease 0s;
+    }
+    .contacto__parrafo{
+        padding-top: 50px;
+        color: $colorBlancoTexto;
+        font-family: $monse;
+        font-size: 20px;
+        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    
+}
+
+

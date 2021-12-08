@@ -1,0 +1,52 @@
+.header__nav{
+    background-color:$colorNavFoo;
+
+    .header__container__navbar{
+        margin: 0px 40px;
+    }
+
+    #header__nav--titulo{
+        font-size: 6vh;
+        font-family: $ko;
+        font-weight: 600;
+        color:$colorBlancoTexto;
+    }
+
+    .header__nav__navbar{
+        font-weight: 600;
+        font-family: $monse;
+        font-size: 2vh;
+        color: $colorBlancoTexto;
+    }
+    
+    #header__nav--marcador{
+        color: $colorSalmon;
+    }
+    #header__nav__secciones{
+        color: $colorBlancoTexto;
+    }
+    #header__nav__secciones:hover {
+        color: $colorSalmon;
+    }
+
+    #header__nav__btnContacto{
+        border-radius: 15px;
+        border: none;
+        background-color: $colorBlancoTexto;
+        margin-left: 10px;
+        font-size: 2vh;
+        color: black;
+    }
+    #header__nav__btnContacto:hover{
+        background-color: $colorSalmon;
+    }
+
+    .header__nav__drop:hover{
+        background-color:$colorSalmon ;
+    }
+}
+
+
+
+
+

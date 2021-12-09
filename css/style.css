@@ -598,6 +598,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* MOBILE CELULARES */
 @media (min-width: 360px) and (max-width: 414px) {
   /* home */
   .main__carousel {
@@ -778,7 +779,8 @@ body {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+/* MEDIA MD->LG */
+@media (min-width: 768px) and (max-width: 991px) {
   .main__carousel {
     height: 700px;
   }
@@ -875,6 +877,39 @@ body {
 @media (width: 375px) {
   .header__nav #header__nav--titulo {
     font-size: 40px;
+  }
+}
+
+/* MEDIA XL->XXL */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .nav-link {
+    font-size: 20px;
+  }
+  #footer__bloque .footer_botonesIconos {
+    margin: 20px 5px;
+  }
+  #footer__bloque #footer__ubi {
+    text-align: center;
+    padding-top: 10px;
+  }
+  #footer__bloque .row {
+    margin-left: 1px;
+  }
+  .main__contacto form {
+    position: absolute;
+    left: 600px;
+  }
+  .main__contacto .contacto__parrafo {
+    margin-top: 520px;
+  }
+  .main__contacto .foto__contacto {
+    margin-top: 100px;
+  }
+  .main__carousel_fotos {
+    height: 900px;
+  }
+  .main__carousel .main__carousel--titulo {
+    margin-bottom: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */

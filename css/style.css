@@ -880,7 +880,69 @@ body {
   }
 }
 
-/* MEDIA XL->XXL */
+/* MEDIA LG -> XL */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #footer__bloque .footer_botonesIconos {
+    margin: 20px 5px;
+  }
+  #footer__bloque #footer__ubi {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .main__carousel {
+    height: inherit;
+  }
+  .main__carousel_fotos {
+    height: 600px;
+  }
+  #footer__bloque {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main__carousel .main__carousel--titulo {
+    margin-bottom: 200px;
+    font-size: 40px;
+  }
+  .main__carousel .main__carousel--titulo2 {
+    font-size: 40px;
+    margin-bottom: 200px;
+  }
+  .main__contacto form {
+    position: absolute;
+    left: 510px;
+    width: 410px;
+  }
+  .main__contacto .foto__contacto {
+    margin-top: 90px;
+  }
+  .contacto__parrafo {
+    margin-top: 520px;
+  }
+  .header__nav_logo {
+    margin-right: 310px;
+    margin-top: 15px;
+  }
+  .main__nos__row1 .main__nos__parrafo {
+    font-size: 25px;
+  }
+  .main__nos__equipo .artistas__parrafo, .main__nos__equipo2 .artistas__parrafo {
+    font-size: 20px;
+  }
+  .main__servicio .main_servicio--parrafo {
+    font-size: 25px;
+  }
+  .main__servicios .main__servicios--parrafo {
+    font-size: 18px;
+  }
+  .main__galeria img {
+    height: 400px;
+  }
+  .main__portfolio .main__portfolio--titulo {
+    margin-left: 60px;
+  }
+}
+
+/* MEDIA XL-> XXL */
 @media (min-width: 1200px) and (max-width: 1399px) {
   .nav-link {
     font-size: 20px;
@@ -897,19 +959,26 @@ body {
   }
   .main__contacto form {
     position: absolute;
-    left: 600px;
+    left: 610px;
   }
   .main__contacto .contacto__parrafo {
     margin-top: 520px;
   }
   .main__contacto .foto__contacto {
-    margin-top: 100px;
+    margin-top: 90px;
   }
   .main__carousel_fotos {
     height: 900px;
   }
   .main__carousel .main__carousel--titulo {
-    margin-bottom: 300px;
+    margin-bottom: 330px;
+    font-size: 62px;
+  }
+  .main__nos__row1 .main__nos__parrafo {
+    font-size: 25px;
+  }
+  .main__servicio .main_servicio--parrafo {
+    font-size: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */

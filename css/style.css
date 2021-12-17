@@ -5,6 +5,15 @@
   background-color: #343a40;
 }
 
+.header__nav .a-titulo {
+  text-decoration: none;
+  color: #edf0f1;
+}
+
+.header__nav .a-titulo:hover {
+  color: #F08F8C;
+}
+
 .header__nav .header__container__navbar {
   margin: 0px 40px;
 }
@@ -313,7 +322,7 @@ body {
 }
 
 .main__servicios {
-  padding-bottom: 100px;
+  padding-bottom: 170px;
 }
 
 .main__servicios .main__servicios__card {
@@ -330,6 +339,10 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #F08F8C;
   font-size: 35px;
+}
+
+.main__servicios .card {
+  margin-bottom: 60px;
 }
 
 .main__servicios .main__servicios--parrafo {
@@ -388,8 +401,8 @@ body {
      object-fit: cover;
 }
 
-.margin__fondo {
-  margin-bottom: 70px;
+.main__servicios .main__card__fondo {
+  margin-top: 100px;
 }
 
 .main__contacto {

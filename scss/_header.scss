@@ -1,6 +1,12 @@
 .header__nav{
     background-color:$colorNavFoo;
-
+    .a-titulo{
+        text-decoration: none;
+        color: $colorBlancoTexto;
+    }
+    .a-titulo:hover{
+        color: $colorSalmon;
+    }
     .header__container__navbar{
         margin: 0px 40px;
     }

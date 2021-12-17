@@ -130,7 +130,7 @@ body {
   background-color: #353442;
 }
 
-.main__carousel {
+.main__carousel .main__carousel_fotos {
   height: 900px;
 }
 
@@ -139,7 +139,7 @@ body {
   font-size: 70px;
   font-weight: 600;
   text-shadow: 0 5px 15px black;
-  margin-bottom: 35%;
+  margin-bottom: 25%;
   background-color: rgba(53, 52, 66, 0.568);
   -webkit-backdrop-filter: blur(200px);
           backdrop-filter: blur(200px);
@@ -152,12 +152,28 @@ body {
   font-size: 70px;
   font-weight: 600;
   text-shadow: 0 5px 15px black;
-  margin-bottom: 25%;
   background-color: rgba(53, 52, 66, 0.568);
   -webkit-backdrop-filter: blur(200px);
           backdrop-filter: blur(200px);
   border-radius: 30px;
   padding: 15px 60px;
+}
+
+.main__carousel .main__carousel__btn {
+  margin-bottom: 300px;
+}
+
+.main__carousel .btn__carousel {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  padding: 5px 10px;
+  background-color: #F08F8C;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.main__carousel .btn__carousel:hover {
+  background-color: gray;
 }
 
 .main__nos__row1 {
@@ -322,7 +338,7 @@ body {
 }
 
 .main__servicios {
-  padding-bottom: 170px;
+  padding-bottom: 120px;
 }
 
 .main__servicios .main__servicios__card {
@@ -614,15 +630,24 @@ body {
 /* MOBILE CELULARES */
 @media (min-width: 360px) and (max-width: 414px) {
   /* home */
-  .main__carousel {
-    height: 300px;
+  .main__carousel .main__carousel_fotos {
+    height: 350px;
   }
-  #main__carousel__titulo_media {
-    font-size: 15px;
-    margin-bottom: 20%;
+  .main__carousel .main__carousel--titulo {
+    font-size: 20px;
+    margin-bottom: 80px;
+    border-radius: 15px;
   }
-  .main__carousel_fotos {
-    height: 300px;
+  .main__carousel .main__carousel__btn {
+    margin-bottom: 30px;
+  }
+  .main__carousel .main__carousel--titulo2 {
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 15px;
+  }
+  .main__carousel .btn__carousel {
+    font-size: 20px;
   }
   /* nosotros */
   .main__nos__row1 .main__nos__titulo {
@@ -794,14 +819,18 @@ body {
 
 /* MEDIA MD->LG */
 @media (min-width: 768px) and (max-width: 991px) {
-  .main__carousel {
-    height: 700px;
+  .main__carousel .main__carousel_fotos {
+    height: 720px;
   }
-  #main__carousel__titulo_media {
+  .main__carousel .main__carousel--titulo {
     font-size: 50px;
+    margin-bottom: 200px;
   }
-  .main__carousel_fotos {
-    height: 700px;
+  .main__carousel .main__carousel__btn {
+    margin-bottom: 150px;
+  }
+  .main__carousel .main__carousel--titulo2 {
+    font-size: 40px;
   }
   /* nosotros */
   .artistas__nombre {
@@ -902,23 +931,22 @@ body {
     text-align: center;
     padding-top: 10px;
   }
-  .main__carousel {
-    height: inherit;
+  .main__carousel .main__carousel_fotos {
+    height: 1000px;
   }
-  .main__carousel_fotos {
-    height: 600px;
+  .main__carousel .main__carousel--titulo {
+    font-size: 70px;
+    margin-bottom: 300px;
+  }
+  .main__carousel .main__carousel--titulo2 {
+    font-size: 60px;
+  }
+  .main__carousel .main__carousel__btn {
+    margin-bottom: 250px;
   }
   #footer__bloque {
     padding-left: 10px;
     padding-right: 10px;
-  }
-  .main__carousel .main__carousel--titulo {
-    margin-bottom: 200px;
-    font-size: 40px;
-  }
-  .main__carousel .main__carousel--titulo2 {
-    font-size: 40px;
-    margin-bottom: 200px;
   }
   .main__contacto form {
     position: absolute;
@@ -980,12 +1008,17 @@ body {
   .main__contacto .foto__contacto {
     margin-top: 90px;
   }
-  .main__carousel_fotos {
-    height: 900px;
+  .main__carousel .main__carousel_fotos {
+    height: 850px;
   }
   .main__carousel .main__carousel--titulo {
-    margin-bottom: 330px;
-    font-size: 62px;
+    font-size: 70px;
+  }
+  .main__carousel .main__carousel--titulo2 {
+    font-size: 65px;
+  }
+  .main__carousel .main__carousel__btn {
+    margin-bottom: 170px;
   }
   .main__nos__row1 .main__nos__parrafo {
     font-size: 22px;

@@ -3,14 +3,17 @@ body{
 }
 
 .main__carousel{
-    height:900px;
+    
+    .main__carousel_fotos{
+        height: 900px;
+    }
     
     .main__carousel--titulo{
         font-family: $monse;
         font-size: 70px;
         font-weight: 600;
         text-shadow: 0 5px 15px rgba(0,0,0,1);
-        margin-bottom: 35%;
+        margin-bottom: 25%;
         background-color: rgba(53, 52, 66, 0.568);
         backdrop-filter: blur(200px);
         border-radius: 30px;
@@ -22,13 +25,29 @@ body{
         font-size: 70px;
         font-weight: 600;
         text-shadow: 0 5px 15px rgba(0,0,0,1);
-        margin-bottom: 25%;
+        
         background-color: rgba(53, 52, 66, 0.568);
         backdrop-filter: blur(200px);
         border-radius: 30px;
         padding: 15px 60px;
     }
+    .main__carousel__btn{
+        margin-bottom: 300px;
+    }
+    .btn__carousel{
+        font-family: $monse;
+        font-size: 30px;
+        padding: 5px 10px;
+        background-color: $colorSalmon;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .btn__carousel:hover{
+        background-color: gray;
+    }
     
+    
+
 }
 
 
